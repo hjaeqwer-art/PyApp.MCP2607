@@ -6,7 +6,7 @@ st.write(time.strftime('%Y-%m-%d %H:%M:%S'))
 
 st.title(':sparkles: 로또 생성기 :sparkles:')
 
-def generate_info():
+def generate_lotto():
   lotto = [i + 1 for i in range(45)]
   random.shuffle(lotto)
   return lotto[:6]
