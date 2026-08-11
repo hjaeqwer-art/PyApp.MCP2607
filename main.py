@@ -2,7 +2,7 @@ import streamlit as st
 import os, time, random
 st.title('Hello Streamlit')
 st.write('안녕하세요. 배포 참 쉽죠?')
-st.write(time.strtime('%Y-%m-%d %H:%M:%S'))
+st.write(time.strftime('%Y-%m-%d %H:%M:%S'))
 
 st.title(':sparkles: 로또 생성기 :sparkles:')
 
